@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29324.140
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalNotifications.Android", "LocalNotifications\LocalNotifications.Android\LocalNotifications.Android.csproj", "{348ED88E-8042-4E2B-8B61-C87753DD650D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalNotifications.iOS", "LocalNotifications\LocalNotifications.iOS\LocalNotifications.iOS.csproj", "{09451E4F-9DB3-4C8B-B3FB-7893DE3618FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalNotifications", "LocalNotifications\LocalNotifications\LocalNotifications.csproj", "{A7BE66D7-177D-4188-87A1-E6948B3D1C7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalNotifications", "LocalNotifications\LocalNotifications\LocalNotifications.csproj", "{A7BE66D7-177D-4188-87A1-E6948B3D1C7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,42 +23,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|ARM.Build.0 = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|ARM.Deploy.0 = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|iPhone.Deploy.0 = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|x64.Build.0 = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|x64.Deploy.0 = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|x86.Build.0 = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Debug|x86.Deploy.0 = Debug|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|ARM.ActiveCfg = Release|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|ARM.Build.0 = Release|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|ARM.Deploy.0 = Release|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|iPhone.Build.0 = Release|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|iPhone.Deploy.0 = Release|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|x64.ActiveCfg = Release|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|x64.Build.0 = Release|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|x64.Deploy.0 = Release|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|x86.ActiveCfg = Release|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|x86.Build.0 = Release|Any CPU
-		{348ED88E-8042-4E2B-8B61-C87753DD650D}.Release|x86.Deploy.0 = Release|Any CPU
 		{09451E4F-9DB3-4C8B-B3FB-7893DE3618FB}.Debug|Any CPU.ActiveCfg = Debug|iPhone
 		{09451E4F-9DB3-4C8B-B3FB-7893DE3618FB}.Debug|Any CPU.Build.0 = Debug|iPhone
 		{09451E4F-9DB3-4C8B-B3FB-7893DE3618FB}.Debug|Any CPU.Deploy.0 = Debug|iPhone
